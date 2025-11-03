@@ -12,13 +12,13 @@ Users can search images from the **Unsplash API**, view top searches across all 
 ![OAuth Login](./screenshot/oauth-login.png)
 
 ### 🏆 Top Searches Banner
-![Top Searches](./screenshot/top-searches.png)
+![Top Searches](./screenshot/search.png)
 
 ### 🖼️ Search Results + Multi-Select
-![Search Results](./screenshot/search-results.png)
+![Search Results](./screenshot/select.png)
 
 ### 📜 User Search History
-![Search History](./screenshot/search-history.png)
+![Search History](./screenshot/history.png)
 
 
 ## Important Note:
