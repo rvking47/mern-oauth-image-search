@@ -109,5 +109,52 @@ FACEBOOK_APP_SECRET=your_facebook_app_secret   # Pending
 | Authentication | Passport.js (Google, GitHub, Facebook OAuth) |
 | API | Unsplash API |
 
+## Postman Collection 
+
+-POST /api/search---
+Request Body:
+{
+  "term": "nature"
+}
+Response Example:
+{
+  "results": [
+    { "id": "abc123", "term": "nature", "userId":"xyz" },
+    { "id": "xyz456", "term": "batman", "userId":"xyz" }
+  ]
+}
+
+-cURL Example:
+curl -X POST http://localhost:8000/api/search \
+-H "Content-Type: application/json" \
+-d '{"term": "mountains"}'
+
+-GET /api/top-searche
+Response Example:
+{
+  "topSearches": [
+    { "term": "nature", "count": 12 },
+    { "term": "cars", "count": 8 }
+  ]
+}
+
+cURL Example:
+curl http://localhost:8000/api/top-searches
+
+-GET /api/history
+Response Example:
+
+{
+  "history": [
+    { "term": "ocean", "timestamp": "2025-11-03T07:00:00Z" },
+    { "term": "forest", "timestamp": "2025-11-02T12:00:00Z" }
+  ]
+}
+
+cURL Example:
+curl http://localhost:8000/api/history
+
+
+
 
 
