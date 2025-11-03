@@ -49,7 +49,7 @@ image-search-app/
 │ ├── package.json # Backend dependencies
 │ └── .env.example # Example env file for backend
 │
-├── proofs/ # Screenshots & demo GIFs for README
+├── screenshot/ # Screenshots & demo GIFs for README
 │ ├── login.png
 │ ├── searche.png
 │ ├── select.png
