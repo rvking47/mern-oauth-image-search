@@ -23,6 +23,8 @@ Facebook OAuth integration is not fully configured in this project because my Fa
 ### User Search History
 ![Search History](./screenshot/histroy.png)
 
+## Folder Structure
+
 image-search-app/
 │
 ├── client-side/                     # React frontend
