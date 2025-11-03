@@ -23,39 +23,39 @@ Facebook OAuth integration is not fully configured in this project because my Fa
 ### User Search History
 ![Search History](./screenshot/histroy.png)
 
-## 🧱 Folder Structure
-
 image-search-app/
 │
-├── client-side/ # React frontend
-│ ├── src/ # React components, hooks, pages
-│ │ ├── components/ # Reusable UI components (Button.jsx, Navigation.jsx, Search.jsx, Sidebar.jsx)
-│ │ ├── pages/ # Page components (Login.jsx, Home.jsx, AccessToken.jsx)
-│ │ ├── App.css # Css
-│ │ └── index.css # Css
-│ │ ├── App.js # Main React app entry
-│ │ └── index.js # ReactDOM entry point
-│ ├── public/ # Static asset
-│ ├── package.json # Frontend dependencies
+├── client-side/                     # React frontend
+│   ├── src/                         # React components, hooks, and pages
+│   │   ├── components/              # Reusable UI components (Button.jsx, Navigation.jsx, Search.jsx, Sidebar.jsx)
+│   │   ├── pages/                   # Page components (Login.jsx, Home.jsx, AccessToken.jsx)
+│   │   ├── App.css                  # Main CSS file
+│   │   ├── index.css                # Global styles
+│   │   ├── App.js                   # Main React app entry
+│   │   └── index.js                 # ReactDOM entry point
+│   ├── public/                      # Static assets (favicon, index.html, etc.)
+│   └── package.json                 # Frontend dependencies
 │
-├── server-side/ # Node + Express backend
-│ ├── routes/ # Express route files (authRoute.js, searchRoute.js)
-│ ├── models/ # Mongoose schemas files(userModel.js, searchModel.js)
-│ ├── config/ # (Passport.js)
-| ├── database/ # (db.js)
-| ├── middleware/ # (isMiddleware.js)
-│ ├── controllers/ # (searchController.js, userController.js)
-│ ├── index.js # Main server entry file
-│ ├── package.json # Backend dependencies
-│ └── .env.example # Example env file for backend
+├── server-side/                     # Node + Express backend
+│   ├── routes/                      # Express route files (authRoute.js, searchRoute.js)
+│   ├── models/                      # Mongoose schema files (userModel.js, searchModel.js)
+│   ├── config/                      # Passport.js configuration
+│   ├── database/                    # MongoDB connection file (db.js)
+│   ├── middleware/                  # Authentication middleware (isMiddleware.js)
+│   ├── controllers/                 # Controller files (searchController.js, userController.js)
+│   ├── index.js                     # Main server entry file
+│   ├── package.json                 # Backend dependencies
+│   └── .env.example                 # Example environment variable file
 │
-├── screenshot/ # Screenshots & demo GIFs for README
-│ ├── login.png
-│ ├── searche.png
-│ ├── select.png
-│ ├── history.png
-│ └── image.png
-│ └── home.png
+├── screenshot/                      # Screenshots & demo images for README
+│   ├── login.png
+│   ├── home.png
+│   ├── searche.png
+│   ├── select.png
+│   ├── history.png
+│   └── image.png
+├── README.md                        # Project documentation
+
 
 
 ## Environment Variables Setup
