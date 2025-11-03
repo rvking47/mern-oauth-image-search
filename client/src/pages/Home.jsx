@@ -8,7 +8,7 @@ import Sidebar from '../components/Sidebar';
 import SearchUI from '../components/SearchUI';
 import toast, { Toaster } from 'react-hot-toast';
 
-const base_url = "http://localhost:8000";
+const base_url = "https://mern-oauth-image-search-backend.onrender.com";
 
 const Home = () => {
     const navigate = useNavigate();
@@ -67,5 +67,6 @@ const Home = () => {
         </>
     )
 }
+
 
 export default Home
