@@ -18,7 +18,7 @@ Users can search images from the **Unsplash API**, view top searches across all 
 ![Search Results](./screenshot/select.png)
 
 ### 📜 User Search History
-![Search History](./screenshot/history.png)
+![Search History](./screenshot/histroy.png)
 
 
 ## Important Note:
