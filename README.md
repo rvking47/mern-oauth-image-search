@@ -162,6 +162,9 @@ results:[
     ]
 }
 
+cURL Example:
+curl http://localhost:8000/api/images
+
 
 
 
