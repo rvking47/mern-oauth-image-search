@@ -49,8 +49,8 @@ Facebook OAuth integration is not fully configured in this project because my Fa
 
 | Layer | Technology |
 |-------|-------------|
-| Frontend | React.js, Axios, React Router |
-| Backend | Node.js, Express.js |
+| Client | React.js, Axios, React Router |
+| Server | Node.js, Express.js |
 | Database | MongoDB (Mongoose) |
 | Authentication | Passport.js (Google, GitHub, Facebook OAuth) |
 | API | Unsplash API |
