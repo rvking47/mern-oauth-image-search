@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { FaGoogle, FaGithub, FaFacebook } from "react-icons/fa";
-import Button from "../components/button";
+import Button from "../components/Button";
 import { useNavigate } from "react-router-dom";
 
 const base_url = "http://localhost:8000"
@@ -44,3 +44,4 @@ const Login = () => {
 };
 
 export default Login;
+
