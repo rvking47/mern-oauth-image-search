@@ -5,7 +5,7 @@ import toast, { Toaster } from 'react-hot-toast';
 
 
 
-const base_url = "http://localhost:8000";
+const base_url = "https://mern-oauth-image-search-backend.onrender.com";
 
 const SearchUI = () => {
   const [term, setTerm] = useState("");
@@ -194,3 +194,4 @@ const SearchUI = () => {
 };
 
 export default SearchUI;
+
