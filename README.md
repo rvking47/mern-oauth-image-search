@@ -154,6 +154,14 @@ Response Example:
 cURL Example:
 curl http://localhost:8000/api/history
 
+-GET /api/images
+
+{
+results:[
+    images for Unsplash API
+    ]
+}
+
 
 
 
