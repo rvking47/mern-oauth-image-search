@@ -3,7 +3,7 @@ import { FaClock, FaSignOutAlt, FaBars, FaTimes } from "react-icons/fa";
 import axios from "axios";
 import toast, { Toaster } from 'react-hot-toast';
 
-const base_url = "http://localhost:8000";
+const base_url = "https://mern-oauth-image-search-backend.onrender.com";
 
 const Sidebar = ({ onClick }) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -132,3 +132,4 @@ const Sidebar = ({ onClick }) => {
 };
 
 export default Sidebar;
+
