@@ -23,6 +23,58 @@ Facebook OAuth integration is not fully configured in this project because my Fa
 ### User Search History
 ![Search History](./screenshot/histroy.png)
 
+## 🧱 Folder Structure
+
+image-search-app/
+│
+├── client-side/ # React frontend
+│ ├── src/ # React components, hooks, pages
+│ │ ├── components/ # Reusable UI components (Button.jsx, Navigation.jsx, Search.jsx, Sidebar.jsx)
+│ │ ├── pages/ # Page components (Login.jsx, Home.jsx, AccessToken.jsx)
+│ │ ├── App.css # Css
+│ │ └── index.css # Css
+│ │ ├── App.js # Main React app entry
+│ │ └── index.js # ReactDOM entry point
+│ ├── public/ # Static asset
+│ ├── package.json # Frontend dependencies
+│
+├── server-side/ # Node + Express backend
+│ ├── routes/ # Express route files (authRoute.js, searchRoute.js)
+│ ├── models/ # Mongoose schemas files(userModel.js, searchModel.js)
+│ ├── config/ # (Passport.js)
+| ├── database/ # (db.js)
+| ├── middleware/ # (isMiddleware.js)
+│ ├── controllers/ # (searchController.js, userController.js)
+│ ├── index.js # Main server entry file
+│ ├── package.json # Backend dependencies
+│ └── .env.example # Example env file for backend
+│
+├── proofs/ # Screenshots & demo GIFs for README
+│ ├── login.png
+│ ├── searche.png
+│ ├── select.png
+│ ├── history.png
+│ └── image.png
+│ └── home.png
+
+
+## Environment Variables Setup
+
+PORT=8000
+MONGODB_SERVER=your_mongodb_connection_string
+UNSPLASH_ACCESS_KEY=your_unsplash_api_key
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_SECRET=your_google_client_secret
+GITHUB_CLIENT_ID=your_github_client_id
+GITHUB_CLIENT_SECRET=your_github_client_secret
+CLIENT_URL=http://localhost:5173
+SECRET_KEY="api1234"
+
+
+# Facebook OAuth (pending account verification)
+FACEBOOK_APP_ID=your_facebook_app_id   # Pending
+FACEBOOK_APP_SECRET=your_facebook_app_secret   # Pending
+
 
 ## Features
 
