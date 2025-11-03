@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 
-const base_url = "http://localhost:8000";
+const base_url = "https://mern-oauth-image-search-backend.onrender.com";
 
 const AccessToekn = () => {
     const navigate = useNavigate();
@@ -37,5 +37,6 @@ const AccessToekn = () => {
         </>
     )
 }
+
 
 export default AccessToekn
